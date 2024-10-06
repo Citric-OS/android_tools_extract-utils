@@ -2489,7 +2489,6 @@ function generate_prop_list_from_image() {
 }
 
 function colored_echo() {
-    IFS=" "
     local COLOR=$1
     shift
     if ! [[ $COLOR =~ ^[0-9]$ ]]; then
